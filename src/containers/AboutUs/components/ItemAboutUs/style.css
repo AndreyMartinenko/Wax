@@ -1,0 +1,41 @@
+.ItemAboutUs{
+    display: flex;
+    flex-direction: column;
+    width: 267px;
+    text-align: center;
+    position: relative;
+}
+
+.ItemAboutUs>img{
+    width: 51px;
+    height: 51px;
+    display:block;
+    margin: 0 auto;
+}
+
+.ItemAboutUs>p {
+
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.ItemAboutUs>h3 {
+    color: #555555;
+    font-family: "Raleway - Semi Bold";
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.ItemAboutUs::after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 73px;
+    height: 6px;
+    background: #f1eee9;
+    margin-top: 200px;
+    left: 37%;
+ }
